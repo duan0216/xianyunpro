@@ -89,7 +89,7 @@ export default {
     .active{
       color: #000;
       i{
-        border-bottom: 37px solid rgba(243, 239, 239,.2)
+        border-bottom: 37px solid rgba(243, 239, 239,.5)
       }
     }
     span{
@@ -110,8 +110,9 @@ export default {
         top: 0;
         height: 0;
         width: 70px;
-        border-bottom: 37px solid rgba(0, 0, 0, 0.3);
+        border-bottom: 37px solid rgba(0, 0, 0,.6);
         border-right: 21px solid transparent;
+        z-index: -10;
       }
       
     }

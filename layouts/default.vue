@@ -42,7 +42,7 @@ a{
   color:inherit;
 }
 a:hover{
-  color:red
+  color:skyblue
 }
 em,i{
   font-style: normal;
