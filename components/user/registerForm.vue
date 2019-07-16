@@ -138,6 +138,7 @@ export default {
             data: props
           }).then(res => {
             console.log(res.data);
+            
           });
         }
       });
