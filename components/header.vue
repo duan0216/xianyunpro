@@ -3,7 +3,7 @@
     <!-- logo部分 -->
     <div class="logo"  >
       <nuxt-link to="/">
-        <img src="@/assets/logo.png" alt />
+        <img src="@/assets/xianyunlogo.png" alt />
       </nuxt-link>
     </div>
     <!-- 导航部分 -->
@@ -44,11 +44,11 @@ export default {
     }
   },
   mounted(){
-    console.log(222)
+    // console.log(222)
   },
   methods:{
     handleClearInfo(){
-      console.log(123)
+      // console.log(123)
       this.$store.commit('user/removeUserInfo')
       console.log(this.$store.state)
     }

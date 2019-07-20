@@ -194,7 +194,11 @@ export default {
           });
         }
       });
+      
       if (flag) {
+        var search = JSON.parse(localStorage.getItem('history')) || []
+        search.unshift(this.searchForm)
+        localStorage.setItem('history',JSON.stringify(search))
         this.$router.push({ path: "/air/flights", query: this.searchForm });
       }
     }
