@@ -176,7 +176,9 @@ export default {
       }).then(res=>{
         console.log(res)
         const {data} = res.data
-        this.$store.commit('air/setOrderInfo',data)
+        const id = data.id
+        this.$router.push({path:'/air/pay',query:{id}})
+        
         
         
       })
