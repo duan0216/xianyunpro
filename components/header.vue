@@ -1,4 +1,5 @@
 <template>
+<div id="container">
   <el-row type="flex" class="container" justify="space-between">
     <!-- logo部分 -->
     <div class="logo"  >
@@ -34,6 +35,8 @@
     </el-row>
     <div></div>
   </el-row>
+</div>
+  
 </template>
 
 <script>
@@ -57,11 +60,13 @@ export default {
 </script>
 
 <style lang="less" scoped>
+#container{
+  box-shadow: 0 3px 0 #ccc;
+}
 .container {
   width: 1000px;
   height: 60px;
   margin: 0 auto;
-  box-shadow: 0 3px 0 #ccc;
   .logo {
     img {
       height: 100%;
